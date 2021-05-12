@@ -1,6 +1,6 @@
 JavaFx Project using Maven
 ==========================
-In this repo we will explain how to setup a simple (without fxml) JavaFx application using IntelliJ.
+In this repo we will explain how to setup simple/fxml (without/with fxml) JavaFx application using IntelliJ.
 
 # Configuration
 - Open IntelliJ > New > Project
@@ -13,12 +13,16 @@ In this repo we will explain how to setup a simple (without fxml) JavaFx applica
     Version: 0.0.1
 ```
 - Type a name for the directory of your project
-- Expand `Artifacts Coordinates` and enter the following and click Finish
+- Expand `Artifacts Coordinates` and enter the following and click Next
 ```yaml
     GroupId: org.javafx # package name
     ArtifactId: javafx-maven   # Project Name
     Version: 1.0-SNAPSHOT # tar file name
 ```
+- In the properties we need to change one and add one more properties 
+    - Click archetypeArtifactId and change value to `javafx-archetype-simpe` OR  `javafx-archetype-fxml` (for fxml support) and click OK.
+    - Click + button and type name: javafx-version and value: 13/latest and click OK.
+- Click Next and Finish.
 
 # Run configuration
 - In the toolbar click `Add configrations`
