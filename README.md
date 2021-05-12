@@ -26,3 +26,12 @@ In this repo we will explain how to setup a simple (without fxml) JavaFx applica
 - Expand `Before lanuch` and click + and select `Run Maven Goal` and type `javafx:run` in the Command line, and click Ok.
 - In the window also type `javafx:run` in the command line, click apply, ok.
 - Now you will see Run button along with play button in the toolbar.
+
+## Verify
+- Simple: You can expand the External Libraries in the left pane of IntelliJ and notice that it has `javafx-base/controls/graphics` jar files downloaded.
+- Fxml: You can expand the External Libraries in the left pane of IntelliJ and notice that it has `javafx-base/controls/graphics/fxml` jar files downloaded.
+
+# Latest
+- [DOCS](https://openjfx.io/openjfx-docs/), and in the left menu click `JavaFX and IntelliJ` > `Non-modular with Maven` 
+- Latest Open JavaFX 17 [link](https://gluonhq.com/products/javafx/)
+- Latest Open JavaFX Maven 0.0.6 Plugin [link](https://mvnrepository.com/artifact/org.openjfx/javafx-maven-plugin/0.0.6)
